@@ -1,0 +1,11 @@
+{:itonami.blueprint/id "cloud-itonami-8010"
+ :itonami.blueprint/name "Community Private Security Operations"
+ :itonami.blueprint/isic-rev5 "8010"
+ :itonami.blueprint/domain :commercial/private-security-services
+ :itonami.blueprint/license "AGPL-3.0-or-later"
+ :itonami.blueprint/social-impact [:public-safety :crime-deterrence :accountability]
+ :itonami.blueprint/governor :private-security-governor
+ :itonami.blueprint/robotics true
+ :itonami.blueprint/required-technologies [:robotics :identity :forms :dmn :bpmn :audit-ledger :labor]
+ :itonami.blueprint/optional-technologies [:optimization]
+ :itonami.blueprint/status :public-oss}
