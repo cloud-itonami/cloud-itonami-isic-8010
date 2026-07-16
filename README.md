@@ -119,6 +119,6 @@ AGPL-3.0-or-later. See LICENSE file.
 ## Governance
 
 This actor is part of the cloud-itonami Wave 4 fleet. See ADR-2607121000
-(Wave definition) and ADR-2630008010 (`cloud-itonami-isic-8010` —
+(Wave definition) and ADR-2630801000 (`cloud-itonami-isic-8010` —
 Private Security Operations Coordination, this implementation) in the
 `com-junkawasaki/root` superproject for design decisions.

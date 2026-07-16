@@ -33,7 +33,7 @@ Maintainers may merge changes that preserve these invariants:
 ## Decision Records
 Architecture decisions live in `docs/adr/` in this repo, and in the
 `com-junkawasaki/root` superproject's `90-docs/adr/` — see
-ADR-2630008010 (`cloud-itonami-isic-8010` — Private Security Operations
+ADR-2630801000 (`cloud-itonami-isic-8010` — Private Security Operations
 Coordination), the ADR that filled in this actor's implementation and
 established the coordination-only scope framing. Changes to the trust
 model, storage contract, public business model, operator certification,
