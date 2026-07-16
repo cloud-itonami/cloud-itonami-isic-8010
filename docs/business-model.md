@@ -12,22 +12,24 @@
 - programs that cannot accept closed, unauditable guarding platforms
 
 ## Offer
-- guard/patrol registration and licensing-scope management
-- robotics-assisted site patrol and perimeter/access-point monitoring
-- dispatch and shift records
-- incident and use-of-force reporting
+- guard-shift and post-assignment scheduling proposals
+- patrol/checkpoint/incident data logging
+- incident/suspicious-activity concern flagging (always human-reviewed)
+- uniform/equipment supply coordination
 - role-based access and immutable audit ledger
 
 ## Revenue
 - self-host setup fee
 - managed hosting subscription per site/contract
 - support retainer with SLA
-- patrol-robot integration and maintenance
 
 ## Trust Controls
-- a robot/guard action the governor refuses is never dispatched
-- safety-critical actions (use of force, entering a private residence,
-  detaining a person) require human sign-off
-- a guard cannot be dispatched outside their verified license scope
-- incident reports require source evidence
+- this actor NEVER dispatches a guard to an incident and NEVER authorizes
+  any physical intervention (use of force, detention, arrest) — those
+  decisions are always made by a human already directing the security
+  operation, structurally out of scope for this actor, not merely gated
+- a proposal the independent governor refuses is never committed
+- `flag-incident-concern` always requires human review before any action
+  is taken on it
+- a post-assignment cannot be proposed against outside its verified scope
 - sensitive personnel and incident data stays outside Git
