@@ -97,11 +97,11 @@ clojure -M:run
 
 ## Test suite
 
-- `test/guardops/governor_test.clj` — unit tests of governor hard checks, scope exclusion, and a dedicated regression asserting the default mock-advisor proposals for every allowed op never self-trip the scope-exclusion check
-- `test/guardops/advisor_test.clj` — advisor proposal shape and consistency
-- `test/guardops/phase_test.clj` — rollout phase logic
-- `test/guardops/governor_contract_test.clj` — full graph integration, audit trail
-- `test/guardops/store_contract_test.clj` — Store protocol and MemStore implementation
+- `test/guardops/governor_test.cljk` — unit tests of governor hard checks, scope exclusion, and a dedicated regression asserting the default mock-advisor proposals for every allowed op never self-trip the scope-exclusion check
+- `test/guardops/advisor_test.cljk` — advisor proposal shape and consistency
+- `test/guardops/phase_test.cljk` — rollout phase logic
+- `test/guardops/governor_contract_test.cljk` — full graph integration, audit trail
+- `test/guardops/store_contract_test.cljk` — Store protocol and MemStore implementation
 
 ## Modules
 
