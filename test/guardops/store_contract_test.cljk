@@ -1,6 +1,6 @@
 (ns guardops.store-contract-test
   "Contract tests for `guardops.store/Store` protocol."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [guardops.store :as store]))
 
 (deftest mem-store-assignment-lookup
